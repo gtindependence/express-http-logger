@@ -1,0 +1,34 @@
+{
+    "name": "@teamhive/express-http-logger",
+    "version": "0.0.1",
+    "description": "Basic logger for tracking http requests in an Express app.",
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "author": "TeamHive",
+    "contributors": [
+        "John Pinkster <jpinkster>",
+        "Tyler Vander Maas <tvmaasjazz>"
+    ],
+    "scripts": {
+        "build": "rm -rf dist && tsc -d",
+        "prepack": "tsc",
+        "postpack": "rm *.js && rm *.d.ts && rm -Rf interfaces",
+        "postpublish": "git push --tag"
+    },
+    "homepage": "https://github.com/TeamHive/express-http-logger#readme",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TeamHive/express-http-logger.git"
+    },
+    "bugs": {
+        "url": "https://github.com/TeamMaestro/express-http-logger/issues"
+    },
+    "dependencies": {
+        "request": "^2.87.0",
+        "request-promise-native": "^1.0.5"
+    },
+    "devDependencies": {
+        "@types/request-promise-native": "^1.0.15"
+    }
+}
