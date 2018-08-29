@@ -1,6 +1,6 @@
 {
     "name": "@teamhive/express-http-logger",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Basic logger for tracking http requests in an Express app.",
     "main": "index.js",
     "typings": "index.d.ts",

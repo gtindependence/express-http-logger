@@ -40,7 +40,7 @@ export class ExpressHttpLogger {
 
     private isIgnoredEnpoint(originalUrl: string): boolean {
         if (this.ignoreUrls && this.ignoreUrls.length > 0) {
-            return this.ignoreUrls.some((url) => url.indexOf(originalUrl) !== -1);
+            return this.ignoreUrls.some((url) => originalUrl.indexOf(url) !== -1);
         }
         return false;
     }
