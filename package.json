@@ -1,6 +1,6 @@
 {
-    "name": "@teammaestro/express-http-logger",
-    "version": "0.0.3",
+    "name": "@gtindependence/express-http-logger",
+    "version": "1.0.0",
     "description": "Basic logger for tracking http requests in an Express app.",
     "main": "index.js",
     "typings": "index.d.ts",
@@ -11,22 +11,17 @@
         "postpack": "rm *.js && rm *.d.ts && rm -Rf interfaces",
         "postpublish": "git push --tag"
     },
-    "homepage": "https://github.com/TeamMaestro/express-http-logger#readme",
+    "homepage": "https://github.com/GTIndependence/express-http-logger#readme",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TeamMaestro/express-http-logger.git"
+        "url": "git+https://github.com/GTIndependence/express-http-logger.git"
     },
     "bugs": {
-        "url": "https://github.com/TeamMaestro/express-http-logger/issues"
+        "url": "https://github.com/GTIndependence/express-http-logger/issues"
     },
-    "dependencies": {
-        "request": "^2.87.0",
-        "request-promise-native": "^1.0.5"
-    },
+    "dependencies": {},
     "devDependencies": {
-        "@types/request-promise-native": "^1.0.15",
-        "typescript": "^3.1.6",
-        "tslint": "^5.1.0"
+        "typescript": "^5.2.2"
     }
 }
